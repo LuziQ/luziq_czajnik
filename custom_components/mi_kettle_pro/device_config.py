@@ -22,7 +22,16 @@ class DeviceConfig(TypedDict):
 DEVICE_CONFIGS: dict[str, DeviceConfig] = {
     "mi_kettle_pro": {
         "name": "yunmi.kettle.v14",
-        "support_models": [],
+        "support_models": ["MiKetv9",
+            "MiKetv10",
+            "MiKetv11",
+            "MiKetv12",
+            "MiKetv13",
+            "MiKetv14",
+            "MiKetv15",
+            "MiKetv16",
+            "yunmi.kettle.v14",
+        ],
         "manufacturer": "Xiaomi",
         "entities": {
             "button": ["MiKettleProHeatButton", "MiKettleProWarmButton"],
