@@ -32,7 +32,7 @@ HACS: 2.0.5+
 ### 1. Install using [HACS](https://hacs.xyz/)
 **Click**
 
-[![Open your Home Assistant instance and open the Mi Smart Kettle Pro integration inside the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=asruda&repository=mi_kettle_pro&category=integration)
+[![Open your Home Assistant instance and open the Mi Smart Kettle Pro integration inside the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=luziq&repository=luziq_czajnik&category=integration)
 
 Then, Open HACS > Search `Mi Smart Kettle Pro` and click **DOWNLOAD** 
 
