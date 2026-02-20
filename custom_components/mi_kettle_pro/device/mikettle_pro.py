@@ -181,8 +181,11 @@ class MiKettlePro:
                 _LOGGER.debug("\nFound Xiaomi kettle service: %s", svc.uuid)
                 self.svc_biz_data = svc
 
-        if not self.svc_auth or not self.svc_biz_data:
-            raise ValueError("No Service found in Device")
+        if not service_auth:
+            raise ValueError("No Auth service found in Device")
+        
+        if not service_biz:
+            _LOGGER.debug("SERVICE_BIZ not found – continuing in FE95-only mode")
 
         auth = self.svc_auth.characteristics
         data = self.svc_biz_data.characteristics
